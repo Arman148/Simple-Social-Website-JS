@@ -1,0 +1,131 @@
+html{
+    background-attachment: fixed;
+    background-image: url(../background-cement-concrete-paint-242236.jpg);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(235, 235, 235, 0.952);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(228, 228, 228, 0.308);
+    box-shadow: 0 2px 4px rgba(38, 92, 94, 0.4);
+    border-radius: 7px;
+    width: 80%;
+    height: 130px;
+}
+
+a{
+    color: rgba(255, 217, 0, 0.74);
+    margin-right: 5%;
+
+}
+
+h1{
+    color: rgb(133, 133, 133);    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(228, 228, 228, 0.308);
+    box-shadow: 0 2px 4px rgba(38, 92, 94, 0.4);
+    border-radius: 7px;
+    width: 30%;
+    min-width: 20%;
+    min-height: 300px;
+    margin-top: 12%;
+    padding: 20px;
+}
+
+input{
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(38, 92, 94, 0.1);
+    margin: 1%;
+    width: 70%;
+    height: 40px;
+    min-height: 30px;    
+    color: gray;
+    font-size: initial ;
+    font-family: sans-serif;
+    outline: 0;
+    
+}
+
+select{
+    border: white;
+    border-radius: 7px;
+    margin: 1%;
+    width: 70%;
+    height: 40px;
+    min-height: 30px;    
+    color: gray;
+    font-size: initial ;
+    font-family: sans-serif;
+    outline: 0;
+}
+
+select > option {
+    background-color: transparent;
+    border: 0;
+    padding-right: 15px;
+    height: 31px;
+    width: 220px;
+
+}
+
+button{
+    background-color:  green;
+    border: none;
+    border-radius: 7px;
+    border-bottom:3px solid gold;
+    width: 30%;
+    height: 60px;
+    margin-top: 1%;
+    box-shadow: 0 2px 4px rgba(38, 92, 94, 0.2);
+
+}
+
+button{
+    background-color: rgb(133, 133, 133);
+    border: none;
+    border-radius: 7px;
+    width: 30%;
+    height: 60px;
+    margin-top: 3%;
+    box-shadow: 0 3px 7px rgba(38, 92, 94, 0.3);
+}
+
+button:hover{
+    box-shadow: 0 5px 11px rgba(133, 133, 133, 0.8);
+    transition: all 0.2s ease    
+}
+
+.but_h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
